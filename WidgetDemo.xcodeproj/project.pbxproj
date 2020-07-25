@@ -20,7 +20,7 @@
 		544032E824C46A100046715A /* WIdget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 544032E424C46A0E0046715A /* WIdget.intentdefinition */; };
 		544032E924C46A100046715A /* WIdget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 544032E424C46A0E0046715A /* WIdget.intentdefinition */; };
 		544032EC24C46A100046715A /* WIdgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 544032DB24C46A0E0046715A /* WIdgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		5D859B5D24CC63AD00DC4519 /* ezgif.com-video-to-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D859B5C24CC63AD00DC4519 /* ezgif.com-video-to-gif.gif */; };
+		5D859B5F24CC642200DC4519 /* ezgif.com-video-to-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D859B5E24CC642200DC4519 /* ezgif.com-video-to-gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +81,7 @@
 		544032E424C46A0E0046715A /* WIdget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WIdget.intentdefinition; sourceTree = "<group>"; };
 		544032E524C46A100046715A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		544032E724C46A100046715A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D859B5C24CC63AD00DC4519 /* ezgif.com-video-to-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-video-to-gif.gif"; sourceTree = "<group>"; };
+		5D859B5E24CC642200DC4519 /* ezgif.com-video-to-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-video-to-gif.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +121,7 @@
 		544032A024C469120046715A = {
 			isa = PBXGroup;
 			children = (
+				5D859B5E24CC642200DC4519 /* ezgif.com-video-to-gif.gif */,
 				544032AB24C469120046715A /* WidgetDemo */,
 				544032BD24C469140046715A /* WidgetDemoTests */,
 				544032C824C469140046715A /* WidgetDemoUITests */,
@@ -144,7 +145,6 @@
 		544032AB24C469120046715A /* WidgetDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5D859B5C24CC63AD00DC4519 /* ezgif.com-video-to-gif.gif */,
 				544032AC24C469120046715A /* WidgetDemoApp.swift */,
 				544032AE24C469120046715A /* ContentView.swift */,
 				544032B024C469140046715A /* Assets.xcassets */,
@@ -327,7 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				544032B424C469140046715A /* Preview Assets.xcassets in Resources */,
-				5D859B5D24CC63AD00DC4519 /* ezgif.com-video-to-gif.gif in Resources */,
+				5D859B5F24CC642200DC4519 /* ezgif.com-video-to-gif.gif in Resources */,
 				544032B124C469140046715A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
